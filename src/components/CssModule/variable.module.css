@@ -1,0 +1,10 @@
+:root {
+    --body-color: #A5B4FC ; 
+    --start: #6EE7B7;
+    --text: white;
+    --inactive: #E5E7EB ; 
+    --previous : #6B7280 ;
+    --selectAnswer : #312E81 ; 
+    --icorrect: #EF4444;
+    --correct: #10B981 ;  
+}

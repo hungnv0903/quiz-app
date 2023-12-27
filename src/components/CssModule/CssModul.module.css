@@ -1,0 +1,122 @@
+@import "./variable.module.css" ; 
+body {
+    background-color: var(--body-color);
+}
+
+h1 {
+    color: var(--text);
+}
+.button , .buttonInactive , .buttonPrevious , .buttonNext , .buttonSubmit , .buttonReview {
+    background-color: var(--start);
+    width: 160px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #10B981;
+}
+
+.buttonInactive {
+    background-color: var(--inactive);
+    color: #D1D8E2;
+}
+
+.buttonPrevious {
+    background-color: var(--previous);
+    color: var(--text);
+}
+.buttonPrevious:hover {
+    background-color: var(--inactive);
+}
+
+.buttonNext:hover {
+    background-color: #10B981;
+    color: var(--text);
+}
+
+.buttonReview {
+    background-color: #EF4444;
+    color: var(--text);
+}
+
+.buttonReview:hover {
+    background-color: #F87171;
+}
+.buttonSubmit {
+    background-color: #F59E0B;
+    color: var(--text);
+}
+.buttonSubmit:hover {
+    background-color: #FBBF24;
+}
+
+.question {
+    width: 700px;
+    height: 250px;
+    background-color: var(--text);
+    margin: auto;
+    padding: 10px;
+    margin: 55px 0px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.numberQuestion {
+    color: #312E81 ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.contentQuestion {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contentQuestion p {
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contentAnswer , .contentAnswerReview {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+
+.selectAnswer {
+    background-color: #312E81;
+    color: var(--text);
+}
+.contentAnswer li:hover {
+    background-color: #312E81;
+    color: var(--text);
+}
+
+.correctAnswer {
+    background-color: #10B981 !important;
+    color: var(--text) !important;   
+}
+
+.icorrectAnswer {
+    background-color: #EF4444;
+    color: var(--text);  
+}
+
+.countdowncircletime {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -17%;
+    left: 44%;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
